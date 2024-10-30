@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Índices Pluviométricos e Casos de Dengue</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="default">
+  <nav class="navbar navbar-expand-xl">
+    <div class="container-fluid">
+      <a class="navbar-brand">Índices Pluviométricos e Casos de Dengue</a>
+      <button id="toggle-dark-mode" aria-label="Alternar tema">&#9788;</button>
+
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-1">
+          <li class="nav-item"><a href="#introducao" class="nav-link">INTRODUÇÃO</a></li>
+          <li class="nav-item"><a href="#graficos" class="nav-link">GRÁFICOS</a></li>
+          <li class="nav-item"><a href="#referencias" class="nav-link">REFERÊNCIAS</a></li>
+          <li class="nav-item"><a href="#resultados" class="nav-link">RESULTADOS</a></li>
+          <li class="nav-item"><a href="#autores" class="nav-link">AUTORES</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <main class="section-bg">
+    <section id="introducao" class="container py-5">
+      <h2 class="subsection-title">INTRODUÇÃO</h2>
+      <p class="subsection-content">Este estudo examina como os índices de chuva em São Paulo se relacionam com os casos de dengue, com base em dados fornecidos pelo Centro de Vigilância Epidemiológica (CVE) e pelo Instituto Nacional de Meteorologia (INMET).</p>
+      <button class="btn btn-primary" onclick="speak('Este estudo examina como os índices de chuva em São Paulo se relacionam com os casos de dengue, com base em dados fornecidos pelo Centro de Vigilância Epidemiológica e pelo Instituto Nacional de Meteorologia.');">Falar</button>
+    </section>
+
+    
+
+    <section id="graficos" class="container my-4">
+      <h2 class="subsection-title">GRÁFICOS</h2>
+
+      <div class="card mb-4">
+        <div class="row g-0 highlight">
+          <div class="col-xl-6 order-xl-2">
+            <img src="img/dengue-chuva-2022.png" class="card-img rounded-start" alt="Gráfico de dengue e precipitação de 2022">
+          </div>
+          <div class="col-xl-6">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">CASOS DE DENGUE X PRECIPITAÇÃO (2022)</h5>
+              <p class="card-text">
+                O gráfico mostra a relação entre os casos de dengue e a temperatura média em 2022. Nos meses mais quentes, como abril e maio, os casos de dengue atingem seu pico, ultrapassando 10 mil registros.<br>Conforme a temperatura cai durante o inverno, especialmente entre junho e agosto, os casos diminuem drasticamente. A curva de temperatura sugere que períodos mais quentes favorecem a proliferação do mosquito Aedes aegypti, enquanto o frio reduz a incidência da doença.
+              </p>
+              <button class="btn btn-primary" onclick="speak('O gráfico mostra a relação entre os casos de dengue e a temperatura média em 2022. Nos meses mais quentes, como abril e maio, os casos de dengue atingem seu pico, ultrapassando 10 mil registros. Conforme a temperatura cai durante o inverno, especialmente entre junho e agosto, os casos diminuem drasticamente. A curva de temperatura sugere que períodos mais quentes favorecem a proliferação do mosquito Aedes aegypti, enquanto o frio reduz a incidência da doença.');">Falar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <div class="row g-0 highlight">
+          <div class="col-xl-6">
+            <img src="img/dengue-chuva-2023.png" class="card-img rounded-start" alt="Gráfico de dengue e precipitação de 2023">
+          </div>
+          <div class="col-xl-6">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">CASOS DE DENGUE X PRECIPITAÇÃO (2023)</h5>
+              <p class="card-text">
+                O gráfico de 2023 apresenta a relação entre os casos de dengue e a temperatura média ao longo do ano. Os picos de casos são observados em março, abril e maio, com o ápice em abril, superando 10 mil registros, semelhante ao padrão observado em 2022.<br>A temperatura média segue um comportamento típico, com valores mais altos nos primeiros meses do ano, alcançando cerca de 22°C, e uma queda progressiva durante o inverno, chegando a 18°C entre junho e agosto. Conforme a temperatura diminui, também há uma redução significativa nos casos de dengue.
+              </p>
+              <button class="btn btn-primary" onclick="speak('O gráfico de 2023 apresenta a relação entre os casos de dengue e a temperatura média ao longo do ano. Os picos de casos são observados em março, abril e maio, com o ápice em abril, superando 10 mil registros, semelhante ao padrão observado em 2022. A temperatura média segue um comportamento típico, com valores mais altos nos primeiros meses do ano, alcançando cerca de 22°C, e uma queda progressiva durante o inverno, chegando a 18°C entre junho e agosto. Conforme a temperatura diminui, também há uma redução significativa nos casos de dengue.');">Falar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card mb-4">
+        <div class="row g-0 highlight">
+          <div class="col-xl-6 order-xl-2">
+            <img src="img/dengue-chuva-2024.png" class="card-img rounded-start" alt="Gráfico de dengue e precipitação de 2024">
+          </div>
+          <div class="col-xl-6">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">CASOS DE DENGUE X PRECIPITAÇÃO (2024)</h5>
+              <p class="card-text">
+                O gráfico de 2024 mostra a evolução dos casos de dengue em relação à temperatura média. Os meses de março, abril e maio registram os maiores picos, com abril atingindo o ápice de mais de 300 mil casos.<br>A temperatura média, que se mantém em torno de 22°C no início do ano, começa a cair em junho, atingindo 18°C em agosto, acompanhada de uma queda drástica no número de casos, que praticamente desaparecem nesse período. Esse padrão reflete a correlação já observada nos anos anteriores, onde temperaturas mais altas nos primeiros meses do ano favorecem o aumento dos casos de dengue, enquanto a queda nas temperaturas durante o inverno coincide com uma redução significativa na proliferação do mosquito Aedes aegypti.
+              </p>
+              <button class="btn btn-primary" onclick="speak('O gráfico de 2024 mostra a evolução dos casos de dengue em relação à temperatura média. Os meses de março, abril e maio registram os maiores picos, com abril atingindo o ápice de mais de 300 mil casos. A temperatura média, que se mantém em torno de 22°C no início do ano, começa a cair em junho, atingindo 18°C em agosto, acompanhada de uma queda drástica no número de casos, que praticamente desaparecem nesse período. Esse padrão reflete a correlação já observada nos anos anteriores, onde temperaturas mais altas nos primeiros meses do ano favorecem o aumento dos casos de dengue, enquanto a queda nas temperaturas durante o inverno coincide com uma redução significativa na proliferação do mosquito Aedes aegypti.');">Falar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="referencias" class="container py-5">
+      <h2 class="subsection-title">REFERÊNCIAS</h2>
+      <div class="card highlight py-4">
+        <div class="card-body">
+          <p class="subsection-content">Fonte de dados pluviométricos: <a href="https://portal.inmet.gov.br/" class="link">https://portal.inmet.gov.br/</a></p>
+          <p class="subsection-content">Fonte de dados de dengue: <a href="https://dengue.saude.sp.gov.br/" class="link">https://dengue.saude.sp.gov.br/</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultados" class="container py-5">
+      <h2 class="subsection-title">RESULTADOS</h2>
+      <div class="card highlight p-4">
+        <div class="card-body">
+          <p class="subsection-content">
+            A partir da análise destes dados, foi possível observar que o  aumento pluviométrico dentro do município tem direta relação com  o crescimento dos casos de dengue, mostrando-se altamente  influente na dissipação da doença. As águas acumuladas em recipientes ao ar livre, como pneus, vasos de plantas e calhas entupidas, criam ambientes ideais para a reprodução do mosquito, aumentando o risco de transmissão do vírus. 
+          </p>
+          <p class="subsection-content">
+            Além disso, a dificuldade de escoamento e drenagem em áreas urbanas pode agravar a proliferação de focos. Esse cenário evidencia a importância de ações preventivas, como campanhas de conscientização sobre o descarte adequado de lixo e a manutenção de áreas limpas e sem acúmulo de água. A mobilização da população em parceria com o poder público torna-se essencial para o combate ao mosquito, especialmente em períodos de maior índice pluviométrico.
+          </p>
+          <button class="btn btn-primary" onclick="speak('A partir da análise destes dados, foi possível observar que o aumento pluviométrico dentro do município tem direta relação com o crescimento dos casos de dengue, mostrando-se altamente influente na dissipação da doença. As águas acumuladas em recipientes ao ar livre, como pneus, vasos de plantas e calhas entupidas, criam ambientes ideais para a reprodução do mosquito, aumentando o risco de transmissão do vírus. Além disso, a dificuldade de escoamento e drenagem em áreas urbanas pode agravar a proliferação de focos. Esse cenário evidencia a importância de ações preventivas, como campanhas de conscientização sobre o descarte adequado de lixo e a manutenção de áreas limpas e sem acúmulo de água. A mobilização da população em parceria com o poder público torna-se essencial para o combate ao mosquito, especialmente em períodos de maior índice pluviométrico.');">Falar</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="autores" class="container text-center py-5">
+      <h2 class="subsection-title mb-4">AUTORES</h2>
+      <div class="row justify-content-center">
+        <div class="col-6 col-md-4 col-lg-2 mb-4 authors">
+          <img src="img/user.png" class="rounded-circle" width="50">
+          <p class="mt-2">Caio Vinicius Queiroz</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 authors">
+          <img src="img/user.png" class="rounded-circle" width="50">
+          <p class="mt-2">Kayque de Jesus Levy R.</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 authors">
+          <img src="img/user.png" class="rounded-circle" width="50">
+          <p class="mt-2">Francklin Junior</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 authors">
+          <img src="img/user.png" class="rounded-circle" width="50">
+          <p class="mt-2">Matheus Moura</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 authors">
+          <img src="img/user.png" class="rounded-circle" width="50">
+          <p class="mt-2">João Teodoro</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 authors">
+          <img src="img/user.png" class="rounded-circle" width="50">
+          <p class="mt-2">Miguel Nepomuceno Gil</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer text-white">
+    <div class="container p-3">
+      <div class="d-flex justify-content-center align-items-center mb-2">
+        <img src="img/logo.png" alt="Logo Universidade Católica de Santos" style="width: 200px; margin-right: 10px;">
+      </div>
+      <p class="mb-0">Copyright © 2024 - All Rights Reserved</p>
+    </div>
+  </footer>
+
+    
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
